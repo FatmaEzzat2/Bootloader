@@ -23,7 +23,7 @@ To erase and write data on flash memory, we need to apply a high voltage to each
 
 It involves programming the micro-controller or memory chip outside of its circuit, commonly used during manufacturing or before the chip is soldered onto the circuit board.
 
-![Untitled 4.jpeg](images/Untitled%205.jpeg)
+![Untitled 5.jpeg](images/Untitled%205.jpeg)
 
 **Advantages:**
 
@@ -45,7 +45,7 @@ It involves programming the micro-controller or memory chip outside of its circu
 
 It allows the micro-controller or memory chip to be programmed while installed in its target circuit, used during development, production, and field updates.
 
-![WhatsApp Image 2024-06-29 at 8.02.13 AM.jpeg](%F0%9F%92%A1%20Bootloader%20268c2db1ec5a474cb01c3d4cd551fb57/WhatsApp_Image_2024-06-29_at_8.02.13_AM.jpeg)
+![Untitled 6.jpeg](images/Untitled%206.jpeg)
 
 **Advantages:**
 
