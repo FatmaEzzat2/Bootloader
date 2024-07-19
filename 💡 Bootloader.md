@@ -23,7 +23,7 @@ To erase and write data on flash memory, we need to apply a high voltage to each
 
 It involves programming the micro-controller or memory chip outside of its circuit, commonly used during manufacturing or before the chip is soldered onto the circuit board.
 
-![WhatsApp Image 2024-06-29 at 7.51.39 AM.jpeg](%F0%9F%92%A1%20Bootloader%20268c2db1ec5a474cb01c3d4cd551fb57/WhatsApp_Image_2024-06-29_at_7.51.39_AM.jpeg)
+![Untitled 4.](images/Untitled 4.jpeg)
 
 **Advantages:**
 
