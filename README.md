@@ -14,7 +14,6 @@ To erase and write data on flash memory, we need to apply a high voltage to each
 ### 1.2. High Voltage for Programming and Erasing
 
  **1.1.1. Programming (Writing Data):**  
- 
     - To write data to flash memory, a high voltage is applied to the control gate of the floating-gate transistor.
     - This causes electrons to tunnel through the insulating layer and get trapped in the floating gate, altering the cell's threshold voltage to represent binary data.
     
