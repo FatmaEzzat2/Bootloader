@@ -11,18 +11,18 @@ Flash memory is a non-volatile memory widely used for data storage in various el
 
 To erase and write data on flash memory, we need to apply a high voltage to each cell. To provide this high voltage, a flash memory controller (or driver) is required.
 
-### High Voltage for Programming and Erasing
+### 1.2. High Voltage for Programming and Erasing
 
-1. **Programming (Writing Data):**
+1.1.1. **Programming (Writing Data):**
     - To write data to flash memory, a high voltage is applied to the control gate of the floating-gate transistor.
     - This causes electrons to tunnel through the insulating layer and get trapped in the floating gate, altering the cell's threshold voltage to represent binary data.
-2. **Erasing:**
+1.1.2. **Erasing:**
     - To erase data, a high voltage with the opposite polarity is applied.
     - This causes electrons to tunnel out of the floating gate, resetting the cell to its default state (usually all 1s).
 
 # 2. Flashing Techniques
 
-### 2.1 Out-Circuit Programming
+### 2.1. Out-Circuit Programming
 
 It involves programming the micro-controller or memory chip outside of its circuit, commonly used during manufacturing or before the chip is soldered onto the circuit board.
 
@@ -30,23 +30,23 @@ It involves programming the micro-controller or memory chip outside of its circu
   <img src="images/Untitled%205.jpeg" alt="Description of Image" width="700" length="450"/>
 </div>
 
-**Advantages:**
+**2.1.1. Advantages:**
 
 - **Isolation:** Reduced risk of interference or errors.
 - **Speed:** High-speed programming with optimized connections and power supplies.
 - **Quality Control:** Thorough testing and verification before installation.
 
-**Disadvantages:**
+**2.1.2. Disadvantages:**
 
 - **Time-Consuming:** Removing and replacing the chip can be slow.
 - **Equipment:** Requires specialized programming hardware and adapters.
 
-**Use Cases:**
+**2.1.3. Use Cases:**
 
 - Initial programming of micro-controllers or memory devices.
 - Programming large batches of chips in production environments.
 
-### 2.2 In-Circuit Programming
+### 2.2. In-Circuit Programming
 
 It allows the micro-controller or memory chip to be programmed while installed in its target circuit, used during development, production, and field updates.
 
@@ -55,24 +55,24 @@ It allows the micro-controller or memory chip to be programmed while installed i
 </div>
 
 
-**Advantages:**
+**2.2.1. Advantages:**
 
 - **Convenience:** Faster process without removing the chip.
 - **Flexibility:** Enables updates and reprogramming without disassembly.
 - **Integration:** Suitable for automated programming and testing in production lines.
 
-**Disadvantages:**
+**2.2.2. Disadvantages:**
 
 - **Accessibility:** Requires access to programming pins or a dedicated interface.
 - **Power Supply:** Requires a stable power supply from the target circuit.
 
-**Use Cases:**
+**2.2.3. Use Cases:**
 
 - Firmware updates during development.
 - Final programming and calibration in production.
 - Field updates and bug fixes.
 
-### 2.3 In-Application Programming
+### 2.3. In-Application Programming
 
 It enables the microcontroller or memory device to be reprogrammed while the application is running, ideal for field updates without interrupting the device's operation.
 
@@ -83,19 +83,19 @@ It is beneficial when dealing with many microcontrollers because each may requir
 </div>
 
 
-**Advantages:**
+**2.3.1. Advantages:**
 
 - **Non-Disruptive:** The device continues to operate during updates.
 - **Remote Updates:** Supports over-the-air (OTA) or remote updates, reducing the need for physical access.
 - **User-Friendly:** End-users can perform updates without specialized equipment.
 
-**Disadvantages:**
+**2.3.2. Disadvantages:**
 
 - **Complexity:** Must ensure updates do not interfere with operations or leave the device unusable if interrupted.
 - **Security:** Requires robust measures to prevent unauthorized access and ensure update integrity.
 - **Memory Management:** May need additional memory to store new firmware while the old one is running.
 
-**Use Cases:**
+**2.3.3. Use Cases:**
 
 - Firmware updates for IoT devices, consumer electronics, and automotive systems.
 - Devices in remote or hard-to-access locations.
@@ -111,7 +111,7 @@ A **bootloader** is a small program responsible for initializing and loading the
 </div>
 
 
-### Importance in Embedded Systems:
+### 3.1. Importance in Embedded Systems:
 
 In embedded systems, the bootloader is particularly important because it allows for:
 
@@ -160,7 +160,7 @@ In embedded systems, the bootloader is particularly important because it allows 
 - If the CRC calculation is incorrect:
     - The bootloader responds with a non-acknowledgment (NACK).
 
-## Supported Commands
+## 5.2. Supported Commands
 
 1. **Get Version and Read Protection Status:**
     - **Description:** Retrieves the bootloader version and the read protection status of the memory.
