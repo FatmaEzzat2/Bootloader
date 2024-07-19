@@ -1,0 +1,9 @@
+../Core/Src/main.c:71:5:main	64	static
+../Core/Src/main.c:114:6:Bootloader_UARTRead	264	static
+../Core/Src/main.c:166:6:Bootloader_Jump_App	24	static,ignoring_inline_asm
+../Core/Src/main.c:194:6:SystemClock_Config	88	static
+../Core/Src/main.c:236:13:MX_CRC_Init	8	static
+../Core/Src/main.c:262:13:MX_USART1_UART_Init	8	static
+../Core/Src/main.c:295:13:MX_USART2_UART_Init	8	static
+../Core/Src/main.c:328:13:MX_GPIO_Init	16	static
+../Core/Src/main.c:348:6:Error_Handler	4	static,ignoring_inline_asm

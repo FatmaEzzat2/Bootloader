@@ -1,0 +1,13 @@
+../Core/Src/BL.c:30:16:u8VerifyCRC	40	static
+../Core/Src/BL.c:54:13:voidSendAck	24	static
+../Core/Src/BL.c:66:13:voidSendNAck	16	static
+../Core/Src/BL.c:72:16:u8ValidateAddress	24	static
+../Core/Src/BL.c:84:16:u8ExecuteFlashErase	48	static
+../Core/Src/BL.c:131:16:u8ExecuteMemoryWrite	40	static
+../Core/Src/BL.c:164:6:BL_voidHandleGetVersionCmd	32	static
+../Core/Src/BL.c:187:6:BL_voidHandleGetHelpCmd	40	static
+../Core/Src/BL.c:223:6:BL_voidHandleGetChipIdCmd	32	static
+../Core/Src/BL.c:246:6:BL_voidHandleRDPStatusCmd	32	static
+../Core/Src/BL.c:270:6:BL_voidHandleGoToAddressCmd	40	static
+../Core/Src/BL.c:314:6:BL_voidHandleFlashEraseCmd	32	static
+../Core/Src/BL.c:336:6:BL_voidHandleMemeoryWriteCmd	40	static
