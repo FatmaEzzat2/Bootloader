@@ -5,7 +5,7 @@
 Flash memory is a non-volatile memory widely used for data storage in various electronic devices. Its construction involves floating-Gate Transistors, enabling it to retain data even when power is off.
 
 <div align="center">
-  <img src="images/Untitled%204.png" alt="Description of Image" width="400" length="500"/>
+  <img src="images/Untitled%204.png" alt="Description of Image" width="450" length="550"/>
 </div>
 
 
@@ -147,7 +147,7 @@ In embedded systems, the bootloader is particularly important because it allows 
 # 5. Bootloader Design
 
 <div align="center">
-  <img src="images/Untitled%203.png" alt="Description of Image" width="400" length="350"/>
+  <img src="images/Untitled%203.png" alt="Description of Image" width="450" length="400"/>
 </div>
 
 - First, the host sends a command packet to the bootloader.
