@@ -107,7 +107,7 @@ It is beneficial when dealing with many microcontrollers because each may requir
 A **bootloader** is a small program responsible for initializing and loading the main operating system or firmware of a device when it is powered on or reset. In embedded systems, it plays a crucial role in starting up the device and ensuring that the correct software is loaded and executed. 
 
 <div align="center">
-  <img src="images/Untitled%201.png" alt="Description of Image" width="500" length="450"/>
+  <img src="images/Untitled%202.png" alt="Description of Image" width="500" length="450"/>
 </div>
 
 
