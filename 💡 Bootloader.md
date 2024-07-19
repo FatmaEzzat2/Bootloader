@@ -129,7 +129,7 @@ In embedded systems, the bootloader is particularly important because it allows 
 
 # 5. Bootloader Design
 
-![Untitled](%F0%9F%92%A1%20Bootloader%20268c2db1ec5a474cb01c3d4cd551fb57/Untitled%203.png)
+![Untitled](images/Untitled%203.png)
 
 - First, the host sends a command packet to the bootloader.
 - Based on the data in this packet, the bootloader determines the appropriate actions.
