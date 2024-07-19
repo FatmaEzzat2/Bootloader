@@ -8,6 +8,7 @@ Flash memory is a non-volatile memory widely used for data storage in various el
   <img src="images/Untitled%204.png" alt="Description of Image" width="400" length="500"/>
 </div>
 
+
 To erase and write data on flash memory, we need to apply a high voltage to each cell. To provide this high voltage, a flash memory controller (or driver) is required.
 
 ### High Voltage for Programming and Erasing
@@ -25,7 +26,9 @@ To erase and write data on flash memory, we need to apply a high voltage to each
 
 It involves programming the micro-controller or memory chip outside of its circuit, commonly used during manufacturing or before the chip is soldered onto the circuit board.
 
-![Untitled 5.jpeg](images/Untitled%205.jpeg)
+<div align="center">
+  <img src="images/Untitled%205.jpeg" alt="Description of Image" width="800" length="500"/>
+</div>
 
 **Advantages:**
 
