@@ -95,7 +95,7 @@ It is beneficial when dealing with many microcontrollers because each may requir
 
 A **bootloader** is a small program responsible for initializing and loading the main operating system or firmware of a device when it is powered on or reset. In embedded systems, it plays a crucial role in starting up the device and ensuring that the correct software is loaded and executed. 
 
-![Untitled.png](%F0%9F%92%A1%20Bootloader%20268c2db1ec5a474cb01c3d4cd551fb57/Untitled%202.png)
+![Untitled](images/Untitled%202.png)
 
 ### Importance in Embedded Systems:
 
@@ -109,8 +109,7 @@ In embedded systems, the bootloader is particularly important because it allows 
 
 # 4. Bootloader Sequence :
 
-![WhatsApp Image 2024-06-29 at 8.39.19 AM.jpeg](%F0%9F%92%A1%20Bootloader%20268c2db1ec5a474cb01c3d4cd551fb57/WhatsApp_Image_2024-06-29_at_8.39.19_AM.jpeg)
-
+![Untitled](images/Untitled%207.jpeg)
 1. Using **In-Circuit or Out-Circuit Programming** to Flash the bootloader Code in the Flash:
 2. **Hardware Initialization:**
     - During execution, the bootloader performs hardware initialization tasks such as setting up the UART.
