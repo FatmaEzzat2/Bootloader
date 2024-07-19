@@ -4,7 +4,7 @@
 
 Flash memory is a non-volatile memory widely used for data storage in various electronic devices. Its construction involves floating-Gate Transistors, enabling it to retain data even when power is off.
 
-![Untitled](%F0%9F%92%A1%20Bootloader%20268c2db1ec5a474cb01c3d4cd551fb57/Untitled.png)
+![Untitled](images/Untitled%204.png)
 
 To erase and write data on flash memory, we need to apply a high voltage to each cell. To provide this high voltage, a flash memory controller (or driver) is required.
 
