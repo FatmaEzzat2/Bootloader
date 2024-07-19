@@ -123,7 +123,10 @@ In embedded systems, the bootloader is particularly important because it allows 
 
 # 4. Bootloader Sequence :
 
-![Untitled](images/Untitled%207.jpeg)
+<div align="center">
+  <img src="images/Untitled%207.jpeg" alt="Description of Image" width="500" length="450"/>
+</div>
+
 1. Using **In-Circuit or Out-Circuit Programming** to Flash the bootloader Code in the Flash:
 2. **Hardware Initialization:**
     - During execution, the bootloader performs hardware initialization tasks such as setting up the UART.
