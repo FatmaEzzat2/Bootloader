@@ -50,7 +50,10 @@ It involves programming the micro-controller or memory chip outside of its circu
 
 It allows the micro-controller or memory chip to be programmed while installed in its target circuit, used during development, production, and field updates.
 
-![Untitled 6.jpeg](images/Untitled%206.jpeg)
+<div align="center">
+  <img src="images/Untitled%206.jpeg" alt="Description of Image" width="700" length="450"/>
+</div>
+
 
 **Advantages:**
 
