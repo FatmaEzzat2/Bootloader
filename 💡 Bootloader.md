@@ -66,11 +66,11 @@ It allows the micro-controller or memory chip to be programmed while installed i
 
 ### 2.3 In-Application Programming
 
-It ****enables the microcontroller or memory device to be reprogrammed while the application is running, ideal for field updates without interrupting the device's operation.
+It enables the microcontroller or memory device to be reprogrammed while the application is running, ideal for field updates without interrupting the device's operation.
 
 It is beneficial when dealing with many microcontrollers because each may require different programming protocols like JTAG, SPI, or I2C. To make updating new code easier, using a common communication protocol such as UART or CAN simplifies the process. This approach ensures smoother firmware updates across multiple devices, making management and maintenance more efficient in distributed systems.
 
-![Untitled](%F0%9F%92%A1%20Bootloader%20268c2db1ec5a474cb01c3d4cd551fb57/Untitled%201.png)
+![Untitled](images/Untitled%201.png)
 
 **Advantages:**
 
