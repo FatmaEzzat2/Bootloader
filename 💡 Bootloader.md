@@ -124,7 +124,7 @@ In embedded systems, the bootloader is particularly important because it allows 
 # 4. Bootloader Sequence :
 
 <div align="center">
-  <img src="images/Untitled%207.jpeg" alt="Description of Image" width="450" length="400"/>
+  <img src="images/Untitled%207.jpeg" alt="Description of Image" width="400" length="350"/>
 </div>
 
 1. Using **In-Circuit or Out-Circuit Programming** to Flash the bootloader Code in the Flash:
@@ -146,7 +146,9 @@ In embedded systems, the bootloader is particularly important because it allows 
 
 # 5. Bootloader Design
 
-![Untitled](images/Untitled%203.png)
+<div align="center">
+  <img src="images/Untitled%203.png" alt="Description of Image" width="400" length="350"/>
+</div>
 
 - First, the host sends a command packet to the bootloader.
 - Based on the data in this packet, the bootloader determines the appropriate actions.
